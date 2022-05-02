@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>1990s</title>
+            <link rel="stylesheet" href="css\style.css">
+            <!-- this links the page to the CSS style sheet.-->
+
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!-- makes it so this page is available to use on mobile phones-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.js"></script>
+        <!--this script element downloads the script from teh sourced website-->
+
+        <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css" rel="stylesheet">
+        <!-- this link element creates the CSS for the box-->
+
+  </head>
+  <body class="body1990">
+    <!-- the class makes this seperatly identifiable in the css-->
+
+
+    <section>
+      <!-- groups these elements together, serperating them from the other elements outside of the section-->
+
+      <img class="logo1990"src="image\1990slogo.png" alt="">
+      <!-- this is an image element, classed to be able to seperatly edit them in the CSS. -->
+
+
+    <ul class="menu5">
+      <!-- the class makes this seperatly identifiable in the css-->
+      <!-- ul is unordered list, giving the menu links no order, and can be positioned horizontally-->
+
+      <li class="list1990">
+        <!-- this element is a list, creating a list of all links in the menu-->
+
+    <a href="index.html">Home</a>
+    <a href="1960s.html">1960s</a>
+    <a href="1970s.html">1970s</a>
+    <a href="1980s.html">1980s</a>
+
+    <!-- this element is all teh links to teh different pages in the menu, sourced from their project path, adn labled outside the source element-->
+
+      </li>
+    </ul>
+    </section>
+    <div class="container">
+      <h1 class="heading5">1990</h1>
+      <!-- this is the heading for the first page, serperatly classed to be edited seperatly in the CSS-->
+
+      <div class="sub-container">
+        <!-- this div groups the below elements and is classed to be edited seperatly and accordingly in the CSS, this dv is used throughout the coding process to use less CSS as it can be applied through this specific div-->
+
+        <div class="image-row">
+          <!-- this div ensures that the elements sit next to eachother in a row adn can be used throughout the code instead of sepratly on every image in the CSS-->
+
+          <img class="willsmith" src="image\willsmith.jpg" alt="">
+          <!-- this is an image element, classed to be able to seperatly edit them in the CSS. -->
+
+          <p>Overalls with the strap down were severly popular in the 90s, worn with a bold stable shirt underneath to giver it a pop of pattern or colour. SKate tees also became popular in this time, with brands like Alien Workshop, Spitfire and Thrasher; which then followed with teh uprise in popularity with roller blades. Bike shorts became a trend of the 90s as hoop shorts were too short men would wear them underneath, until all of a sudden they became their own trend. Raiders Caps were a popular accessory amont West Coast Rap fans as the fans followed teh artist fashion. Neon windbreakers were like the magic capes of the 90s, you put one on and your'e instantly the coolest guy in the room. </p>
+          <!-- this is a paragraph element, classed to be able to edit it seperatly in the CSS-->
+
+        </div>
+      <div class="image-row" >
+        <!-- this div ensures that the elements sit next to eachother in a row adn can be used throughout the code instead of sepratly on every image in the CSS-->
+
+        <audio controls  src="audio\90s fashion.mp3"
+        src="audio\90s fashion.wav"
+        </audio>
+        <!-- this audio elements sources the audio, adding the contols element gives the user control over it e.g. play, pause-->
+        <!-- sourcing more than one format means that if one isnt supported by a browser being used, maybe the other will-->
+            Sorry, your browser doesn't support the audio format.
+                    <!-- this is a back up error message if none of the formats i have sourced for my audio work-->
+
+
+      </div>
+</div>
+
+    </div>
+  <div id="myModal" style="padding-left: 20px; padding-top: 20px;">Click me to see a weird 90s trend!</div>
+
+    <script>
+
+    new jBox('Modal', {
+        width: 300,
+        height: 360,
+        attach: '#myModal',
+        title: 'One trouser leg rolled up',
+        content: '<img width="250" src="image/90sonelegpulledup.JPG">'
+
+
+
+    });
+
+       </script>
+       <!--this group of elements adjusts the size of the box and its contents-->
+
+  </body>
+  <footer>
+    &copy;2022 Jody Harris | P2671714
+  </footer>
+  <!-- this is a footer element, positioning the text perminantly at the bottom of the page. classed so that it can be edited seperatly in the CSS -->
+
+</html>
